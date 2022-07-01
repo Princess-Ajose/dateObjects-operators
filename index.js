@@ -141,141 +141,142 @@ console.log(seconds);
 
 // 1
 
-// const baseOfTri = prompt('Enter the  base of a triangle');
-// const heightOfTri = prompt('Enter the height of a triangle');
-// const areaOfTri = 0.5 * baseOfTri * heightOfTri
-// confirm('Are you sure you want to find the Area of the Triangle?');
-// // alert(`The area of the triangle is ${areaOfTri}`);
-// console.log(`The area of the triangle is ${areaOfTri}`);
+const baseOfTri = prompt('Enter the  base of a triangle');
+const heightOfTri = prompt('Enter the height of a triangle');
+const areaOfTri = 0.5 * baseOfTri * heightOfTri
+confirm('Are you sure you want to find the Area of the Triangle?');
+// alert(`The area of the triangle is ${areaOfTri}`);
+console.log(`The area of the triangle is ${areaOfTri}`);
 
-// // 2
+// 2
 
-// const sideA = prompt('Enter the first side of the triangle');
-// const sideB = prompt('Enter the second side of the triangle');
-// const sideC = prompt('Enter the last side of the triangle');
-// const perimeterOfTri = sideA + sideB + sideC
-// confirm('Are you sure you want to find the perimeter of the triangle?');
-// // alert(`The perimeter of the triangle is ${perimeterOfTri}`);
-// console.log(`The perimeter of the triangle is ${perimeterOfTri}`);
+const sideA = prompt('Enter the first side of the triangle');
+const sideB = prompt('Enter the second side of the triangle');
+const sideC = prompt('Enter the last side of the triangle');
+const perimeterOfTri = sideA + sideB + sideC
+confirm('Are you sure you want to find the perimeter of the triangle?');
+// alert(`The perimeter of the triangle is ${perimeterOfTri}`);
+console.log(`The perimeter of the triangle is ${perimeterOfTri}`);
 
-// // 3
+// 3
 
-// const length = prompt('Enter the length of the rectangle');
-// const width = prompt('Enter the width of the rectangle');
-// const areaOfRec = length * width;
-// const perimeterOfRec = 2 * (length+width);
-// confirm('Are you sure you want to find the area and the perimeter of the rectangle?');
-// // alert(`The area of the rectangle is ${areaOfRec} and the perimeter of the rectangle is ${perimeterOfRec}`);
-// console.log(`The area of the rectangle is ${areaOfRec} and the perimeter of the rectangle is ${perimeterOfRec}`);
+const length = prompt('Enter the length of the rectangle');
+const width = prompt('Enter the width of the rectangle');
+const areaOfRec = length * width;
+const perimeterOfRec = 2 * (length+width);
+confirm('Are you sure you want to find the area and the perimeter of the rectangle?');
+// alert(`The area of the rectangle is ${areaOfRec} and the perimeter of the rectangle is ${perimeterOfRec}`);
+console.log(`The area of the rectangle is ${areaOfRec} and the perimeter of the rectangle is ${perimeterOfRec}`);
 
-// // 4
-// const pi = 3.14
+// 4
+const pi = 3.14
 
-// const radius = prompt('Enter the radius of a circle')
-// const areaOfCir = pi * radius * radius
-// const circumferenceOfCir = 2 * pi * radius;
-// confirm('Are you sure you want to find the area and the circumference of the circle?');
-// // alert(`The area of the circle is ${areaOfCir} and the circumference of the circle is ${circumferenceOfCir}`);
-// console.log(`The area of the circle is ${areaOfCir} and the circumference of the circle is ${circumferenceOfCir}`);
+const radius = prompt('Enter the radius of a circle')
+const areaOfCir = pi * radius * radius
+const circumferenceOfCir = 2 * pi * radius;
+confirm('Are you sure you want to find the area and the circumference of the circle?');
+// alert(`The area of the circle is ${areaOfCir} and the circumference of the circle is ${circumferenceOfCir}`);
+console.log(`The area of the circle is ${areaOfCir} and the circumference of the circle is ${circumferenceOfCir}`);
 
-// // 5
+// 5
 
-// const interceptX = prompt('Enter the valus of X in your slope')
-// const slope = 2 * interceptX - 2;
-// confirm('Are you sure you want to calculate the slope?')
-// console.log(`The value of y is ${slope}`)
+const interceptX = prompt('Enter the valus of X in your slope')
+const slope = 2 * interceptX - 2;
+confirm('Are you sure you want to calculate the slope?')
+console.log(`The value of y is ${slope}`)
 
-// let x = 4
-// let y = 2 * x - 2
-// console.log(y);
+let x = 4
+let y = 2 * x - 2
+console.log(y);
 
 
-// // 6
+// 6
 
-// const firstY = prompt('Enter the value of y1');
-// const secondY = prompt('Enter the value of of y2');
-// const firstX = prompt('Enter the value of x1');
-// const secondX = prompt('Enter the value of x2');
-// const slopeM = (secondY - firstY) / (secondX - firstX); 
-// confirm('Are you sure you want to calculate the gradient?')
-// console.log(`The slope between point (${firstX},${firstY}) and point (${secondX},${secondY}) is ${slopeM}`);
+const firstY = prompt('Enter the value of y1');
+const secondY = prompt('Enter the value of of y2');
+const firstX = prompt('Enter the value of x1');
+const secondX = prompt('Enter the value of x2');
+const slopeM = (secondY - firstY) / (secondX - firstX); 
+confirm('Are you sure you want to calculate the gradient?')
+console.log(`The slope between point (${firstX},${firstY}) and point (${secondX},${secondY}) is ${slopeM}`);
 
-// let y1 = 2
-// let y2 = 10
-// let x1 = 2
-// let x2 = 6
-// let m = (y2 - y1) / (x2 - x1)
+let y1 = 2
+let y2 = 10
+let x1 = 2
+let x2 = 6
+let m = (y2 - y1) / (x2 - x1)
 
-// console.log(m);
+console.log(m);
 
-// // 7 
+// 7 
 
-// console.log(slope === slopeM);
+console.log(slope === slopeM);
 
-// // 8
-// // let e = 2 
-// // console.log(e * e);
-// // console.log(2 ** 2);
-// const quadricEq = prompt('Enter only the value of x in the equation')
-// const equation = quadricEq ** quadricEq + 6 * quadricEq + 9;
+// 8
+// let e = 2 
+// console.log(e * e);
+// console.log(2 ** 2);
+ x = -3
+const quadricEq = prompt('Enter only the value of x in the equation')
+const equation = quadricEq ** quadricEq + 6 * quadricEq + 9;
 
-// // 9
+// 9
 
-// const hours = prompt('Enter the hours you use to work per week');
-// const ratePerHour = prompt('Enter the rate you earn per hour');
-// const weeklyEarnings = hours * ratePerHour;
-// confirm('Are you sure you want to know your weekly earning?')
-// console.log(`WOW!!!. Your weekly earning is ${weeklyEarnings}`)
+const hours = prompt('Enter the hours you use to work per week');
+const ratePerHour = prompt('Enter the rate you earn per hour');
+const weeklyEarnings = hours * ratePerHour;
+confirm('Are you sure you want to know your weekly earning?')
+console.log(`WOW!!!. Your weekly earning is ${weeklyEarnings}`)
 
-// 10
+10
 // let yourName = "folashade"
-// let yourName = prompt('Enter your name here');
-// let nameLength = yourName.length
+let yourName = prompt('Enter your name here');
+let nameLength = yourName.length
 
-// // nameLength == 7
-// nameLength > 7
-// ?console.log(`Your name is long`)
-// :console.log(`Your name is short`);
+// nameLength == 7
+nameLength > 7
+?console.log(`Your name is long`)
+:console.log(`Your name is short`);
 
-// if (nameLength > 7) {
-//    console.log(`Your name is long`)
-// } else {
-//    console.log(`Your name is short`)
-// }
+if (nameLength > 7) {
+   console.log(`Your name is long`)
+} else {
+   console.log(`Your name is short`)
+}
 
 // 11
 
-// let realName = prompt('Enter your first name ');
-// let surName = prompt('Enter your last name');
-// let realLength = realName.length;
-// let surLength = surName.length;
+let realName = prompt('Enter your first name ');
+let surName = prompt('Enter your last name');
+let realLength = realName.length;
+let surLength = surName.length;
 
-// realLength > surLength
-// ?console.log(`Your first name, ${realName} is longer than your family name, ${surName}.`)
-// : console.log(`Your family name, ${surName} is longer than your first name, ${realName}`);
+realLength > surLength
+?console.log(`Your first name, ${realName} is longer than your family name, ${surName}.`)
+: console.log(`Your family name, ${surName} is longer than your first name, ${realName}`);
 
-// if (realLength > surLength) {
-//    console.log(`Your first name, ${realName} is longer than your family name, ${surName}.`)
-// } else {
-//    console.log(`Your family name, ${surName} is longer than your first name, ${realName}`)
-// }
+if (realLength > surLength) {
+   console.log(`Your first name, ${realName} is longer than your family name, ${surName}.`)
+} else {
+   console.log(`Your family name, ${surName} is longer than your first name, ${realName}`)
+}
 
 
-// // 12
+// 12
 
-// let myAge = 500
-// let yourAge = prompt('Enter your Age');
-// let allAge = myAge - yourAge
-// allAge > yourAge
+let myAge = 500
+let yourAge = prompt('Enter your Age');
+let allAge = myAge - yourAge
+allAge > yourAge
 
-// ?console.log(`I am ${allAge} years older than you.`)
-// :console.log(`Respect!, You have been living for ${yourAge} years on earth`);
+?console.log(`I am ${allAge} years older than you.`)
+:console.log(`Respect!, You have been living for ${yourAge} years on earth`);
 
-// if (allAge > yourAge) {
-//    console.log(`I am ${allAge} years older than you.`)
-// } else {
-//    console.log(`Respect!, You have been living for ${yourAge} years on earth`);
-// };
+if (allAge > yourAge) {
+   console.log(`I am ${allAge} years older than you.`)
+} else {
+   console.log(`Respect!, You have been living for ${yourAge} years on earth`);
+};
 
 // 13
 
@@ -314,7 +315,10 @@ month = now.getMonth() + 1
 days = now.getDate() + 1
 
 console.log(`${year}-${month}-${days} ${hour}:${minute}`);
+// 15 ii
+
 console.log(`${days}_${month}-${year} ${hour}:${minute}`);
+// 15 iii
 console.log(`${days}/${month}/${year} ${hour}:${minute}`);
 
 // Level 3 
